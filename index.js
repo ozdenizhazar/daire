@@ -1,4 +1,7 @@
-let yc = prompt("Dairenin yarı çapı");
+let yariCap = prompt("Dairenin yarı çapı");
+const pi = 3.14;
+let alan = pi * yariCap * yariCap;
+let cevre = 2 * pi * yariCap;
 
-alert("Dairenin alanı:" + (3.14 * yc * yc));
-alert("Dairenin çevresi:" + (2 * 3.14 * yc));
+alert("Dairenin alanı: " + alan.toFixed(2));
+alert("Dairenin çevresi: " + cevre.toFixed(2));
